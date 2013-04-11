@@ -1,0 +1,21 @@
+div.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+div.navigation {
+	background-color: #111;
+	color: white;
+	height: 60px;
+}
+
+.brand {
+	font-weight: 700;
+	color: white;
+	text-transform: lowercase;
+	font-family: "proxima-nova";
+	font-size: 25px;
+	line-height: 60px;
+	padding-left: 10px;
+
+}

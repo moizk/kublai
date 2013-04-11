@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: "proxima-nova";
+  font-size: 13px;
+  line-height: 20px;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #4d90fe;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0161fd;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #dd4b39;
+}
+
+small {
+  font-size: 85%;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+cite {
+  font-style: normal;
+}
+
+.page-header {
+  padding-bottom: 3px;
+  margin: 20px 0 30px;
+  border-bottom: 1px solid #EEE;
+}
