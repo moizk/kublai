@@ -1,0 +1,33 @@
+.square {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+
+.red {
+	background-color: #f44a56;
+}
+
+.blue {
+	background-color: #268BD2;
+}
+
+.lightblue {
+	background-color: #6abbff;
+}
+
+.green {
+	background-color: #2bcda9;
+}
+
+.orange {
+	background-color: #FA4B00;
+}
+
+.midgrey {
+	background-color: #9099A3;
+}
+
+.darkgrey {
+	background-color: #3e4b5d;
+}
