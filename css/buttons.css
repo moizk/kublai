@@ -1,7 +1,7 @@
 .btn {
   display: inline-block;
   padding: 0px 8px;
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 0;
   font-size: 13px;
   line-height: 22px;
@@ -19,12 +19,12 @@
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  *margin-left: .3em;
 
 }
 .btn:not(.active):hover {
   background-color: #f5f5f5;
 }
+
 .btn:hover,
 .btn:active,
 .btn.active,
@@ -107,6 +107,7 @@
 .btn-block + .btn-block {
   margin-top: 5px;
 }
+
 .btn-primary.active,
 .btn-warning.active,
 .btn-danger.active,
@@ -130,6 +131,11 @@
   border-color: #c5c5c5;
   border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
 }
+
+/* =================
+ Blue Button
+===================*/
+
 .btn-primary {
   color: #ffffff;
   background-color: #4b8cf7;
@@ -161,6 +167,12 @@
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .2);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, .2);
 }
+
+/* =================
+ Yellow Button
+===================*/
+
+
 .btn-warning {
   color: #fff;
   background-color: #E9B656;
@@ -189,6 +201,11 @@
 .btn-warning.active {
   background-color: #f2960f \9;
 }
+
+/* =================
+ Red Button
+===================*/
+
 .btn-danger {
   color: #ffffff;
   background-color: #db3c14;
@@ -220,6 +237,11 @@
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .2);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, .2);
 }
+
+/* =================
+ Green Button
+===================*/
+
 .btn-success {
   color: #ffffff;
   background-color: #84D629;
@@ -250,6 +272,11 @@
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .2);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, .2);
 }
+
+/* =================
+ Orange Button
+===================*/
+
 .btn-info {
   color: #ffffff;
   background-color: #EF6548;
@@ -279,6 +306,11 @@
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .2);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, .2);
 }
+
+/* =================
+ Black Button
+===================*/
+
 .btn-inverse {
   color:  white;
   background-color: #4e5563;
@@ -309,6 +341,11 @@
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .2);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, .2);
 }
+
+/* =================
+ Misc
+===================*/
+
 button.btn,
 input[type="submit"].btn {
   *padding-top: 2px;
@@ -319,6 +356,11 @@ input[type="submit"].btn::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
+
+/* =================
+ Button Sizes
+===================*/
+
 button.btn.btn-large,
 input[type="submit"].btn.btn-large {
   *padding-top: 7px;
@@ -334,6 +376,11 @@ input[type="submit"].btn.btn-mini {
   *padding-top: 1px;
   *padding-bottom: 1px;
 }
+
+/* =================
+ Link Button
+===================*/
+
 .btn-link {
   background-color: transparent;
   background-image: none;
