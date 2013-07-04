@@ -9,6 +9,44 @@ div.navigation {
 	height: 60px;
 }
 
+div.navigation ul {
+	color: white;
+	display: inline;
+	list-style: none;
+}
+
+div.navigation ul li {
+	float: right;
+	list-style: none;
+	font-weight: 600;
+	padding: 20px 10px 20px 10px;
+}
+
+div.navigation ul li a {
+	color: #fff;
+	padding: 22px 20px 22px 20px;
+		-webkit-transition: background 300ms ease;
+			-moz-transition: background 300ms ease;
+					transition: background 300ms ease;
+}
+
+div.navigation ul li a:hover {
+	background-color: #268BD2;
+	text-decoration: none;
+}
+
+div.navigation ul li:nth-child(1) a:hover {
+	background-color: #FA4B00;
+}
+
+div.navigation ul li:nth-child(2) a:hover {
+	background-color: #f44a56;
+}
+
+div.navigation ul li:nth-child(3) a:hover {
+	background-color: #2bcda9;
+}
+
 .brand {
 	font-weight: 700;
 	color: white;
@@ -17,5 +55,16 @@ div.navigation {
 	font-size: 25px;
 	line-height: 60px;
 	padding-left: 10px;
+	display: inline;
 
+}
+
+.navlink {
+	color: white;
+}
+
+.squarecontainer {
+	margin-right: auto;
+	margin-left: auto;
+	width: 450px;
 }
