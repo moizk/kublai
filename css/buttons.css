@@ -244,13 +244,13 @@
 
 .btn-purple {
   color:  white;
-  background-color: #8661a3;
+  background-color: #795aac;
   -webkit-transition: background 300ms ease;
      -moz-transition: background 300ms ease;
           transition: background 300ms ease;
 }
 .btn-purple:not(.active):hover {
-  background-color: #111;
+  background-color: #8661a3;
 }
 .btn-purple:hover,
 .btn-purple:active,
@@ -258,5 +258,5 @@
 .btn-purple.disabled,
 .btn-purple[disabled] {
   color: #ffffff;
-  background-color: #8661a3;
+  background-color: #795aac;
 }

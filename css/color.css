@@ -75,11 +75,11 @@
 /* Purple */
 
 .purple {
-	background-color: #8661A3;
+	background-color: #795aac;
 }
 
 .purple::selection {
-	background-color: #8661A3;
+	background-color: #795aac;
 }
 
 /*Dark Gray*/
