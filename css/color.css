@@ -52,14 +52,14 @@
 	background-color: #FA4B00;
 }
 
-/*Lighter Gray */
+/*Yellow */
 
-.midgrey {
-	background-color: #9099A3;
+.yellow {
+	background-color: #FFCC00;
 }
 
-.midgrey::selection {
-	background-color: #9099A3;
+.yellow::selection {
+	background-color: #FFCC00;
 }
 
 /*Lighter Blue */
