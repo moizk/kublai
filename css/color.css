@@ -12,34 +12,82 @@
 	line-height: 230px;
 }
 
+/* Red */
+
 .red {
 	background-color: #f44a56;
 }
+
+.red::selection {
+	background-color: #f44a56;
+}
+
+/* Blue */
 
 .blue {
 	background-color: #268BD2;
 }
 
-.lightblue {
-	background-color: #6abbff;
+.blue::selection {
+	background-color: #268BD2;
 }
+
+/*Green*/
 
 .green {
 	background-color: #2bcda9;
 }
 
+.green::selection {
+	background-color: #2bcda9;
+}
+
+/* Orange */
+
 .orange {
 	background-color: #FA4B00;
 }
+
+.orange::selection {
+	background-color: #FA4B00;
+}
+
+/*Lighter Gray */
 
 .midgrey {
 	background-color: #9099A3;
 }
 
+.midgrey::selection {
+	background-color: #9099A3;
+}
+
+/*Lighter Blue */
+
+.lightblue {
+	background-color: #6abbff;
+}
+
+.lightblue::selection {
+	background-color: #6abbff;
+}
+
+/* Purple */
+
+.purple {
+	background-color: #8661A3;
+}
+
+.purple::selection {
+	background-color: #8661A3;
+}
+
+/*Dark Gray*/
+
 .darkgrey {
 	background-color: #3e4b5d;
 }
 
-.purple {
-	background-color: #8661A3;
+.darkgrey::selection {
+	background-color: #3e4b5d;
 }
