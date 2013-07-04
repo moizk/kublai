@@ -90,7 +90,8 @@
 .btn-red.active,
 .btn-green.active,
 .btn-orange.active,
-.btn-black.active {
+.btn-black.active,
+.btn-purple.active {
   color: rgba(255, 255, 255, 0.75);
 }
 .btn-blue:focus,
@@ -98,7 +99,8 @@
 .btn-red:focus,
 .btn-green:focus,
 .btn-orange:focus,
-.btn-black:focus {
+.btn-black:focus,
+.btn-purple:focus {
   outline: none;
 }
 
@@ -131,7 +133,7 @@
 
 .btn-yellow {
   color: #fff;
-  background-color: #FBCF06;
+  background-color: #FFCC00;
   -webkit-transition: background 300ms ease;
      -moz-transition: background 300ms ease;
           transition: background 300ms ease;
@@ -238,4 +240,23 @@
 .btn-black[disabled] {
   color: #ffffff;
   background-color: #4e5563;
+}
+
+.btn-purple {
+  color:  white;
+  background-color: #8661a3;
+  -webkit-transition: background 300ms ease;
+     -moz-transition: background 300ms ease;
+          transition: background 300ms ease;
+}
+.btn-purple:not(.active):hover {
+  background-color: #111;
+}
+.btn-purple:hover,
+.btn-purple:active,
+.btn-purple.active,
+.btn-purple.disabled,
+.btn-purple[disabled] {
+  color: #ffffff;
+  background-color: #8661a3;
 }
