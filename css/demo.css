@@ -1,5 +1,5 @@
 body {
-	background-color: #e3e3e3;
+	background-color: #ECEEF1;
 }
 
 div.container {
@@ -15,8 +15,19 @@ div.navigation {
 	height: 60px;
 }
 
-div.navigation ul {
+.brand {
+	font-weight: 700;
 	color: white;
+	text-transform: lowercase;
+	font-family: "proxima-nova";
+	font-size: 25px;
+	line-height: 60px;
+	padding-left: 10px;
+	display: inline;
+	float: left;
+}
+
+div.navigation ul {
 	display: inline;
 	list-style: none;
 }
@@ -37,37 +48,43 @@ div.navigation ul li a {
 }
 
 div.navigation ul li a:hover {
-	background-color: #268BD2;
+	background-color: #f44a56;
 	text-decoration: none;
 }
 
 div.navigation ul li:nth-child(1) a:hover {
-	background-color: #FA4B00;
+	background-color: #f44a56;
 }
 
 div.navigation ul li:nth-child(2) a:hover {
-	background-color: #f44a56;
+	background-color: #268bd2;
 }
 
 div.navigation ul li:nth-child(3) a:hover {
 	background-color: #2bcda9;
 }
 
-.brand {
-	font-weight: 700;
-	color: white;
-	text-transform: lowercase;
-	font-family: "proxima-nova";
-	font-size: 25px;
-	line-height: 60px;
-	padding-left: 10px;
-	display: inline;
-	float: left;
-
+div.navigation ul li:nth-child(4) a:hover {
+	background-color: #fa4b00;
 }
 
-.navlink {
-	color: white;
+div.navigation ul li:nth-child(5) a:hover {
+	background-color: #ffcc00;
+}
+
+div.jumbotron {
+	height: 400px;
+	width: 990px;
+	margin: 0 auto;
+	background-color: #f44a56;
+	text-align: center;
+	color: #fff;
+}
+
+div.jumbotron h1 {
+	color: #fff;
+	font-size: 50px;
+	padding-top: 160px;
 }
 
 .squarecontainer {
