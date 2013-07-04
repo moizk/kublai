@@ -75,3 +75,12 @@ h3 {
 p {
   font-size: 14px;
 }
+
+hr {
+  border-top: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  text-align: center;
+  border-bottom: none;
+  padding-bottom: 10px;
+}
