@@ -2,6 +2,14 @@
 	width: 100px;
 	height: 100px;
 	display: inline-block;
+	margin-bottom: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #fff;
+	font-weight: 800;
+	text-align: center;
+	line-height: 100px;
 }
 
 .red {
@@ -30,4 +38,8 @@
 
 .darkgrey {
 	background-color: #3e4b5d;
+}
+
+.purple {
+	background-color: #8661A3;
 }
