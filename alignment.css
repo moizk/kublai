@@ -1,20 +1,8 @@
-// Just some helper to align elements/texts on the page
-.left {
-  float: left;
-}
+/* Floats */
+.left { float: left; }
+.right { float: right; }
 
-.right {
-  float: right;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.text-center {
-  text-align: center;
-}
+/*Text Aligns*/
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
