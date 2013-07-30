@@ -84,7 +84,7 @@ div.jumbotron {
 div.jumbotron h1 {
 	color: #fff;
 	font-size: 50px;
-	padding-top: 20px;
+	padding-top: 10px;
 }
 
 @font-face{
@@ -101,7 +101,7 @@ div.jumbotron h1 {
 .batch {
 	font-family:"Batch";
 	margin-top: 75px;
-	font-size:125px;
+	font-size:115px;
 	line-height:1;
 	display:inline-block;
 }
