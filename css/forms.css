@@ -19,7 +19,9 @@ input:focus {
 	box-shadow: none;
 	background: rgba(0, 0, 0, 0);
 	border-bottom: 1px solid #DDD;
+	width: 500px;
 }
+
 textarea,
 input[type="text"],
 input[type="password"],
@@ -71,4 +73,15 @@ input[type="color"] {
 form input,
 form textarea {
 	font-family: 'proxima nova','helvetica neue',helvetica;
+}
+
+textarea {
+	width: 500px;
+	height: 250px;
+	border: 1px solid #DDD;
+}
+
+input:focus,
+textarea:focus {
+	border-color: #268bd2;
 }
