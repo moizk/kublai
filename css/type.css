@@ -57,6 +57,10 @@ hr {
   border-bottom: 1px solid #EEE;
 }
 
+.page-header h2 {
+  text-align: center;
+}
+
 .page-header p {
   padding-left: 30px;
   padding-right: 30px;
