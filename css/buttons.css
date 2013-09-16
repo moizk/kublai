@@ -129,7 +129,7 @@
 }
 
 .btn-blue:not(.active):hover {
-  background-color: #9099A3;
+  background-color: #3D647F;
 }
 
 .btn-blue:hover,
@@ -137,7 +137,7 @@
 .btn-blue.active,
 .btn-blue.disabled,
 .btn-blue[disabled] {
-  background-color: #9099A3;
+  background-color: #3D647F;
   color: #ffffff;
 }
 
@@ -176,14 +176,14 @@
   transition: background 300ms ease;
 }
 .btn-red:not(.active):hover {
-  background-color: #3e4b5d;
+  background-color: #CC3E48;
 }
 .btn-red:hover,
 .btn-red:active,
 .btn-red.active,
 .btn-red.disabled,
 .btn-red[disabled] {
-  background-color: #3e4b5d;
+  background-color: #CC3E48;
   color: #ffffff;
 }
 
@@ -200,7 +200,7 @@
 }
 
 .btn-green:not(.active):hover {
-  background-color: #95D469;
+  background-color: #417F72;
 }
 
 .btn-green:hover,
@@ -208,7 +208,7 @@
 .btn-green.active,
 .btn-green.disabled,
 .btn-green[disabled] {
-  background-color: #82b964;
+  background-color: #417F72;
   color: #ffffff;
 }
 
