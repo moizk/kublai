@@ -15,26 +15,30 @@
 	border-radius: 3px;
 }
 
+.square span {
+	color: #333;
+}
+
 .red { background-color: #f44a56; }
 .red::selection { background-color: #f44a56;}
 
 .blue { background-color: #268BD2; }
 .blue::selection { background-color: #268BD2; }
 
-.green { background-color: #2bcda9; }
-.green::selection { background-color: #2bcda9; }
+.green { background-color: #42ba5d; }
+.green::selection { background-color: #42ba5d; }
 
-.orange { background-color: #FA4B00; }
-.orange::selection { background-color: #FA4B00; }
+.orange { background-color: #fc9a5f; }
+.orange::selection { background-color: #fc9a5f; }
 
-.yellow { background-color: #FFCC00; }
+.yellow { background-color: #F1E576; }
 .yellow::selection { background-color: #FFCC00; }
 
-.lightblue { background-color: #6abbff; }
-.lightblue::selection { background-color: #6abbff;}
+.gray { background-color: #eceef1; }
+.gray::selection { background-color: #eceef1;}
 
 .purple { background-color: #795aac; }
 .purple::selection { background-color: #795aac; }
 
-.darkgrey { background-color: #3e4b5d; }
-.darkgrey::selection { background-color: #3e4b5d; }
+.dark-gray { background-color: #333; }
+.dark-gray::selection { background-color: #333333; }
