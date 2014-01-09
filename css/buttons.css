@@ -8,7 +8,7 @@
   margin-bottom: 2px;
 
   /*Other */
-  background-color: #f3f3f3;
+  background-color: #eae9e9;
   color: #333;
   font-size: 13px;
   font-weight: 700;
@@ -129,7 +129,7 @@
 }
 
 .btn-blue:not(.active):hover {
-  background-color: #3D647F;
+  background-color: #2277b3;
 }
 
 .btn-blue:hover,
@@ -137,7 +137,7 @@
 .btn-blue.active,
 .btn-blue.disabled,
 .btn-blue[disabled] {
-  background-color: #3D647F;
+  background-color: #2277b3;
   color: #ffffff;
 }
 
@@ -146,22 +146,22 @@
 ===================*/
 
 .btn-yellow {
-  background-color: #FFCC00;
-  color: #fff;
+  background-color: #F1E576;
+  color: #333;
   -webkit-transition: background 300ms ease;
   -moz-transition: background 300ms ease;
   transition: background 300ms ease;
 }
 .btn-yellow:not(.active):hover {
-  background-color: #f5ae46;
+  background-color: #ecdb3d;
 }
 .btn-yellow:hover,
 .btn-yellow:active,
 .btn-yellow.active,
 .btn-yellow.disabled,
 .btn-yellow[disabled] {
-  background-color: #f5a93a;
-  color: #fff;
+  background-color: #ecdb3d;
+  color: #333;
 }
 
 /* =================
@@ -169,21 +169,21 @@
 ===================*/
 
 .btn-red {
-  background-color: #F34541;
+  background-color: #f44a56;
   color: #ffffff;
   -webkit-transition: background 300ms ease;
   -moz-transition: background 300ms ease;
   transition: background 300ms ease;
 }
 .btn-red:not(.active):hover {
-  background-color: #CC3E48;
+  background-color: #333;
 }
 .btn-red:hover,
 .btn-red:active,
 .btn-red.active,
 .btn-red.disabled,
 .btn-red[disabled] {
-  background-color: #CC3E48;
+  background-color: #333;
   color: #ffffff;
 }
 
@@ -192,7 +192,7 @@
 ===================*/
 
 .btn-green {
-  background-color: #38B87C;
+  background-color: #42ba5d;
   color: #ffffff;
   -webkit-transition: background 300ms ease;
   -moz-transition: background 300ms ease;
@@ -200,7 +200,7 @@
 }
 
 .btn-green:not(.active):hover {
-  background-color: #417F72;
+  background-color: #3a9f51;
 }
 
 .btn-green:hover,
@@ -208,7 +208,7 @@
 .btn-green.active,
 .btn-green.disabled,
 .btn-green[disabled] {
-  background-color: #417F72;
+  background-color: #3a9f51;
   color: #ffffff;
 }
 
@@ -217,21 +217,21 @@
 ===================*/
 
 .btn-orange {
-  background-color: #F0472B;
+  background-color: #fc9a5f;
   color: #ffffff;
   -webkit-transition: background 300ms ease;
   -moz-transition: background 300ms ease;
   transition: background 300ms ease;
 }
 .btn-orange:not(.active):hover {
-  background-color: #454545;
+  background-color: #f88139;
 }
 .btn-orange:hover,
 .btn-orange:active,
 .btn-orange.active,
 .btn-orange.disabled,
 .btn-orange[disabled] {
-  background-color: #454545;
+  background-color: #f88139;
   color: #ffffff;
 }
 
@@ -240,7 +240,7 @@
 ===================*/
 
 .btn-black {
-  background-color: #4e5563;
+  background-color: #333;
   color:  white;
   -webkit-transition: background 300ms ease;
   -moz-transition: background 300ms ease;
@@ -256,7 +256,7 @@
 .btn-black.active,
 .btn-black.disabled,
 .btn-black[disabled] {
-  background-color: #4e5563;
+  background-color: #111;
   color: #ffffff;
 }
 
