@@ -2,11 +2,8 @@ body {
 	background-color: #ECEEF1;
 }
 
-div.container {
-	width: 960px;
-	margin: 0 auto;
+div.content-area {
 	background-color: #fff;
-	padding: 15px;
 }
 
 div.navigation {
@@ -74,8 +71,6 @@ div.navigation ul li:nth-child(5) a:hover {
 
 div.jumbotron {
 	height: 400px;
-	width: 990px;
-	margin: 20px auto 0px auto;
 	background-color: #f44a56;
 	text-align: center;
 	color: #fff;

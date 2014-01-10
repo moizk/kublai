@@ -52,9 +52,8 @@ hr {
 /* Page Elements */
 
 .page-header {
-  padding-bottom: 3px;
-  margin: 20px 0 30px;
-  border-bottom: 1px solid #EEE;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .page-header h2 {
