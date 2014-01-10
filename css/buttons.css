@@ -90,6 +90,9 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 25px;
+  -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
 }
 
 .btn-block + .btn-block {
