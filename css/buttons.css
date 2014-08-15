@@ -117,6 +117,7 @@
 .btn-black:focus,
 .btn-purple:focus {
   outline: none;
+  color: #fff;
 }
 
 /* =================
